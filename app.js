@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer((req,res)=>{
-    res.write("Hello from CI/CD Pipeline 😎");
+    res.write("Version 2 deployed 🔥");
     res.end();
 }).listen(3000);
 
